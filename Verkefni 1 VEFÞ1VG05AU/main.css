@@ -1,0 +1,58 @@
+body{
+	margin:auto;
+	width:800px;
+	padding: 10px;
+	border:solid blue;
+
+ }
+.verkefni1{
+	font-size: 20px;
+	color:blue;
+}
+.verkefni2{
+	font-size:30px;
+	color:blue;
+}
+.red{
+	color:red;
+}
+
+h1{
+	text-align: center;
+	color:blue;
+}
+.red2{
+	color:red;
+	text-align: center;
+}
+
+ul{
+	color:darkgreen;
+}
+
+.note{
+	color:red;
+}
+
+.note2{
+	color:blue;
+}
+
+.note3{
+	color:blue;
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+.border{
+	border:solid blue;
+	padding:2px;
+	text-decoration: none;
+	margin:20px;
+}
