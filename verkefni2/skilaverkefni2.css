@@ -1,0 +1,143 @@
+* {
+	box-sizing: border-box;
+}
+
+
+
+.text{
+
+	margin:20px;
+	border:solid green 2px;
+
+}
+
+.class1{
+	border:solid red 4px;
+	padding:20px;
+	margin:20px;
+	color:red;
+}
+
+
+h2{
+	border:dashed blue 4px;
+	padding:20px;
+	margin:20px;
+	color:blue;
+}
+
+
+
+
+h3{
+	display:block;
+	padding:20px;
+	margin:5px;
+
+}
+
+
+
+
+.block li{
+	border:2px dashed green;
+	padding:1em;
+	margin-bottom: 1em;
+
+}
+
+.inline li{
+	display:inline;
+	border:2px dashed blue;
+	padding:1em;
+	margin-bottom: 1em;
+	color:red;
+}
+.inlineblock li{
+	display:inline-block;
+	border:2px dashed blue;
+	padding:1em;
+	margin:1em;
+	color:red;
+}
+
+
+
+h4{
+	float:right;
+}
+
+p{
+	font-size: 25px;	
+}
+
+.class2{
+	border:solid 2px;
+	margin:auto;
+	float:left;
+	width:50%;
+}
+
+
+
+
+
+
+
+.b{
+	font-size: 60px;
+
+}
+
+
+
+.class3{
+	border:solid;
+	float:right;
+	width:50%;
+	padding:1em;
+}
+
+
+.box{
+	font-size: 25px
+}
+
+
+body {
+	max-width: 60em;
+	 margin: 0 auto;
+	 font-family: sans-serif;
+}
+
+footer p {
+  text-align: center;
+}
+
+.gulur {
+	background-color: yellow; 
+}
+.raudur {
+	background-color: red; 
+}
+.graenn {
+	background-color: lime;
+}
+.blar {
+	background-color: cyan; 
+}
+.box {
+	font-size: 1.2em;
+	height: 5em;
+}
+
+
+
+img {
+	max-width:100%;
+	height:auto;
+}
+.imgR{
+	float:right;
+	width:50%;
+}
