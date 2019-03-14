@@ -1,0 +1,137 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background: #0064CE;
+	background: linear-gradient(to bottom, #0064CE 87%, #001933);
+	color: #444;
+	font: 400 1em/1.5 "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 60em;
+	padding:0;
+
+}
+.footercontainer {
+	margin: 0 auto;
+	max-width: 55em;
+	padding:0;
+}
+.baigebg2,
+.baigebg {
+	background: linear-gradient(to bottom, #F6F1D3 5%, #F7D37E 100%);
+	padding: 1em;
+}
+
+.col-II {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background: #0064CE;
+	max-width: 60em;
+	margin: 0 auto;
+}
+.footer-III {
+	display: grid;
+	grid-template-columns: 1.3fr 1fr 1fr;
+
+}
+h1, h2 {
+	font-weight: 300;
+}
+h3 {
+	font-weight: 600;
+	margin: 3em 0;
+}
+blockquote {
+	padding: .6em;
+	background-color: rgba(255,255,255, .5);
+}
+
+.I-I_logo {
+	margin: 1.7em 0 -.5em 2em;
+}
+.logo_h1 {
+	font-weight: 300;
+	font-size: 3em;
+	letter-spacing: -5px;
+	line-height: 2em;
+	padding: 0;
+	text-transform: uppercase;
+	color: #fff;
+	width: 50%;
+}
+.tagline {
+	text-align: right;
+	margin: 1em 0 3.6em 0;
+	color:#F7D37E;
+	font-weight: normal;
+}
+.lead {
+	text-align: center;
+}
+.lead h1 {
+	font-size: 2.2em;
+	line-height: 1.6em;
+	color: #0064CE;
+	font-weight: 300;
+	margin-bottom: -.5em;
+}
+.lead p {
+	font-size: 1.2em;
+	line-height: 1.6em;
+}
+.blokk {
+	text-align: justify;
+	font-size: 1em;
+	line-height: 1.6;
+}
+nav h4 {
+	font-weight: normal;
+	color: #fff;
+}
+dt {
+	color: #F7D37E;
+}
+dd {
+	padding: 0 0 .3em 0;
+	
+}
+footer nav {
+	color: #fff;
+}
+.copy {
+	color: #fff;
+	text-align: center;
+	padding: 0 0 3em 0;
+}
+footer dl,
+footer ul {
+	padding: 0;
+}
+footer ul {
+	list-style-type: none;
+	line-height: 2.3;
+}
+a {
+color: #0064CE;
+text-decoration: none;
+}
+a:hover {
+	color: #0af;
+}
+header a,
+footer a {
+	color: #fff;
+}
+header a:hover,
+footer a:hover {
+	color: #F7D37E;
+}
+header nav {
+	text-align: right;
+	font-size: 1em;
+	font-weight: 400;
+	letter-spacing: .5px;
+}
