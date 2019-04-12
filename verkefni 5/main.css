@@ -1,128 +1,87 @@
-html {
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css?family=Maitree');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Exo');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+.letur{
+    font-family: Lobster;
+    text-align: left;
+    font-size: 30px
 }
-
-body {
+.haegri{
+    padding-top: 45px;
+    text-align: right;
+    font-family: Exo;
+}
+.texti{
+    width: 1200px;
+    margin: 0px auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.bakgrunn{
+    background:#a32626;
+}
+.header{
+    width: 1500px; 
+    margin: 0px auto;
     display: grid;
-    font-family: sans-serif, helvetica;
-    margin: 0 auto;
-    grid-template-areas: "header"
-                         "midja"
-                         "vinstri"
-                         "haegri"
-                         "footer"
-                         "nav";
+    grid-template-columns: 1fr 1fr; 
 }
-header,
-.midja,
-.vinstri,
-.haegri,
-footer {
-    padding: 1em;
+body{ 
+    margin: 0px;
 }
-header {
-    grid-area: header;
-    background-color: tomato;
+a{
+    color: black;
+    text-decoration: italic;
 }
-.midja {
-    grid-area: midja;
-    background-color: lightblue;
+a:hover{
+    color: #b3b3b3;
 }
-.vinstri {
-    grid-area: vinstri;
-    background-color: yellow;
+.titill{
+    font-family: 'Maitree', serif;
 }
-.haegri {
-    grid-area: haegri;
-    background-color: yellow;
-}
-footer {
-    grid-area: footer;
-    background-color: lightgreen;
-}
-nav {
-    grid-area: nav;
-    background-color: black;
+.arrow{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 
-}
+    bottom: 20px;
+    right: 20px;
 
-.topmenu {
-    display: grid;
-    list-style: none;
-    padding: 0;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    background: gray;
+    font-size: 32px;
     text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.arrowleft{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+    bottom: 20px;
+    left: 20px;
+
+    background: gray;
+    font-size: 32px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+img{
+    height: 100px;
+    width: 200px;
+    float: left;
 }
 
-.topmenu li a:hover {
-    background-color: gray;
-}
-.topmenu li {
-    height: 100%;
-    margin: 0;
-}
-.topmenu li a {
-    display: block;
-    padding: 1em;
-    color: white;
+.font{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 17px;
 }
 
-.myndir {
-    display: flex;
-    flex-flow: column nowrap;
-}
-.myndir img {
-    display: block;
-    width: 160px;
-    margin: 0;
-}
-picture img {
-   width: 100%; 
-}
-
-@media screen and (min-width: 37.5em) {
-    body {
-        grid-template-rows: 50 1fr 3fr 1fr;
-        grid-template-areas:"nav" 
-                            "header"
-                            "midja"
-                            "vinstri"
-                            "haegri"
-                            "footer";
-    }
-    .content {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr 2fr;
-        grid-template-areas: "haegri midja"
-                             "vinstri midja"
-    }
-
-    .myndir {
-        flex-flow: row wrap;
-    }
-    .topmenu{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        padding: 0;
-    }
-}
-@media screen and (min-width: 48em) {
-    body {
-        max-width: 60em;
-    }
-    html {
-        background: beige;
-    }
-    .content {
-        display: grid;
-        height: 40em;
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr 2fr 1fr;
-        grid-template-areas: "vinstri midja haegri";
-    }
-    .myndir {
-        flex-flow: row nowrap;
-    }
-}
+iframe{
+    padding:5px;
+    background: gray;
+} 
