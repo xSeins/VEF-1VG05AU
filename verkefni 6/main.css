@@ -1,0 +1,128 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    font-family: sans-serif, helvetica;
+    margin: 0 auto;
+    grid-template-areas: "header"
+                         "midja"
+                         "vinstri"
+                         "haegri"
+                         "footer"
+                         "nav";
+}
+header,
+.midja,
+.vinstri,
+.haegri,
+footer {
+    padding: 1em;
+}
+header {
+    grid-area: header;
+    background-color: tomato;
+}
+.midja {
+    grid-area: midja;
+    background-color: lightblue;
+}
+.vinstri {
+    grid-area: vinstri;
+    background-color: yellow;
+}
+.haegri {
+    grid-area: haegri;
+    background-color: yellow;
+}
+footer {
+    grid-area: footer;
+    background-color: lightgreen;
+}
+nav {
+    grid-area: nav;
+    background-color: black;
+
+}
+
+.topmenu {
+    display: grid;
+    list-style: none;
+    padding: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+
+.topmenu li a:hover {
+    background-color: gray;
+}
+.topmenu li {
+    height: 100%;
+    margin: 0;
+}
+.topmenu li a {
+    display: block;
+    padding: 1em;
+    color: white;
+}
+
+.myndir {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.myndir img {
+    display: block;
+    width: 160px;
+    margin: 0;
+}
+picture img {
+   width: 100%; 
+}
+
+@media screen and (min-width: 37.5em) {
+    body {
+        grid-template-rows: 50 1fr 3fr 1fr;
+        grid-template-areas:"nav" 
+                            "header"
+                            "midja"
+                            "vinstri"
+                            "haegri"
+                            "footer";
+    }
+    .content {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas: "haegri midja"
+                             "vinstri midja"
+    }
+
+    .myndir {
+        flex-flow: row wrap;
+    }
+    .topmenu{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding: 0;
+    }
+}
+@media screen and (min-width: 48em) {
+    body {
+        max-width: 60em;
+    }
+    html {
+        background: beige;
+    }
+    .content {
+        display: grid;
+        height: 40em;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-areas: "vinstri midja haegri";
+    }
+    .myndir {
+        flex-flow: row nowrap;
+    }
+}
