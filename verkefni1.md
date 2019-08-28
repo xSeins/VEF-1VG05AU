@@ -25,3 +25,9 @@
 	* git clone
 	* git status
 	* git diff
+
+6. Hvað gera eftirfarandi Git skipanir?
+	* git clone
+	* git status
+	* git diff
+
