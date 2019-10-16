@@ -1,0 +1,23 @@
+title: Step by step tutorial
+baseurl: "/demo3/"
+url: "http://127.0.0.1:4000"
+
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: "/demo3/"
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: "/demo3/"
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "/demo3/"
+    values:
+      layout: "default"

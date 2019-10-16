@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/base.scss"
+	],
+	"sourcesContent": [
+		"@import \"base\";\n\n",
+		".current {\r\n  color: green\r\n}\r\nh1 {\r\n\tcolor: rgb(9, 9, 148);\r\n}\r\nh2, h3, h4 {\r\n\tcolor: orangered;\r\n}\r\nnav a {\r\n\tcolor: orangered;\r\n\tpadding-right:2em;;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,KACT,GAAC;;AACD,AAAA,EAAE,CAAC,EACF,KAAK,EAAE,OAAc,GACrB;;AACD,AAAA,EAAE,EAAE,EAAE,EAAE,EAAE,CAAC,EACV,KAAK,EAAE,SAAS,GAChB;;AACD,AAAA,GAAG,CAAC,CAAC,CAAC,EACL,KAAK,EAAE,SAAS,EAChB,aAAa,EAAC,GAAG,GACjB"
+}
