@@ -1,6 +1,4 @@
 title: Step by step tutorial
-baseurl: "/demo_v2"
-url: "https://gjg.github.io"
 
 collections:
   authors:
@@ -8,16 +6,16 @@ collections:
 
 defaults:
   - scope:
-      path: "/demo_v2"
+      path: "/"
       type: "authors"
     values:
       layout: "author"
   - scope:
-      path: "/demo_v2"
+      path: "/"
       type: "posts"
     values:
       layout: "post"
   - scope:
-      path: "/demo_v2"
+      path: "/"
     values:
       layout: "default"
