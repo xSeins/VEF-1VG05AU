@@ -1,8 +1,6 @@
 - name: Forsíðan
-  link: /demo_v2/
-- name: Um mig
-  link: /demo_v2/ummig.html
+  link: /
 - name: Nýjustu fréttir
-  link: /demo_v2/pistlar.html
+  link: /pistlar.html
 - name: Starfsfólk
-  link: /demo_v2/staff.html
+  link: /staff.html
